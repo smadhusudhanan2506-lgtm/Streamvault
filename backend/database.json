@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": "6c6a2ad7-fa43-4553-b3e6-a376e5173652",
+      "name": "madhu",
+      "email": "smadhusudhanan2506@gmail.com",
+      "password": "$2b$10$54Pk7tRhhgAF736Mcvvx2OyL9Nt5uh3SrZYxgLIsolnlL7o194SpC",
+      "plan": "silver",
+      "createdAt": "2026-05-30T16:10:02.442Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "d142273f-84b0-4ce2-b720-81e3c0bcca04",
+      "userId": "6c6a2ad7-fa43-4553-b3e6-a376e5173652",
+      "plan": "silver",
+      "amount": 50,
+      "paymentMethod": "gpay",
+      "utr": "GPAY1234567890",
+      "status": "success",
+      "createdAt": "2026-05-30T16:11:18.639Z"
+    }
+  ]
+}
