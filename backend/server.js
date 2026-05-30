@@ -11,7 +11,9 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 const JWT_SECRET = process.env.JWT_SECRET || 'streamvault_super_secret_2024';
 
-app.use(cors());
+app.use(cors({
+  origin: ['http://localhost:5173', 'https://streamvault-1-g1vd.onrender.com']
+}));
 app.use(express.json());
 
 // Auth middleware
